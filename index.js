@@ -1,6 +1,6 @@
 // Import stylesheets
 import './style.css';
-import { test } from './objects-examples/object-ex1.js';
+// import { test } from './objects-examples/object-ex1.js';
 // Write Javascript code!
 const target = document.getElementById('app');
 target.innerHTML = `<h1>Mutation Observer</h1>`;
@@ -46,4 +46,4 @@ observer.observe(target, config);
 // let c = cal.add(10).add(10).multi(10).sub(90).div(10);
 // console.log('====>>> c ', c.total);
 
-test();
+// test();
